@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Webpage Design</title>
+</head>
+<body>
+
+    <h1>Welcome to a Basic HTML Webpage</h1>
+    <p>This page demonstrates fundamental HTML elements like <strong>text formatting</strong>, <em>lists</em>, and <a href="#links">links</a>.</p>
+
+    <!-- Marquee (Note: This tag is obsolete and not recommended for modern web development) -->
+    <marquee style="color: blue; font-weight: bold;">
+        This is a moving text created with the non-standard marquee tag. Modern websites use CSS for such effects.
+    </marquee>
+
+    <h2>Text Formatting</h2>
+    <p>
+        Here are some examples of text formatting tags:
+        <br>
+        This text is <b>bold</b>.
+        <br>
+        This text is <i>italic</i>.
+        <br>
+        This text is <u>underlined</u>.
+        <br>
+        This text is <mark>highlighted</mark>.
+        <br>
+        This text is <sub>subscript</sub> and this is <sup>superscript</sup>.
+    </p>
+
+    <h2>Lists</h2>
+    <p>We can create ordered and unordered lists in HTML using the `&lt;ol&gt;` and `&lt;ul&gt;` tags, respectively.</p>
+
+    <h3>Ordered List (Top 3 Fruits)</h3>
+    <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+    </ol>
+
+    <h3>Unordered List (Shopping Items)</h3>
+    <ul>
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>Bread</li>
+    </ul>
+
+    <h2 id="links">Hyperlinks</h2>
+    <p>Links are created using the anchor `&lt;a&gt;` tag with the `href` attribute.</p>
+    <ul>
+        <li>
+            External Link: Visit [Google](https://www.google.com) to perform a search.
+        </li>
+        <li>
+            Internal Link: Jump to the [Top of the page](#top). (Note: I added an id="top" to the body tag in the final code)
+        </li>
+        <li>
+            Email Link: Send an [email to example@example.com](mailto:example@example.com).
+        </li>
+    </ul>
+
+    <h2>Images</h2>
+    <p>Images are added using the `&lt;img&gt;` tag, which is an empty element.</p>
+    <img src="https://picsum.photos" alt="A placeholder image" width="200" height="300">
+    <p>The `src` attribute specifies the image source, and the `alt` attribute provides alternative text for accessibility.</p>
+
+    <footer style="margin-top: 50px; text-align: center;">
+        <p><small>&copy; 2026 Basic Webpage Design. All rights reserved.</small></p>
+    </footer>
+
+</body>
+</html>
